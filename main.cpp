@@ -15,10 +15,10 @@ int main() {
     long long int lenghLine = 1000;
     string filename = "key.txt";
     string line = "";
-    cout << "Yet Another Cryptographic Key Generator v1.0.0." << endl;
+    cout << "Yet Another Cryptographic Key Generator v1.0.1." << endl;
     cout << "This software generate a good random printable ASCII file: " << filename << ".\nLengh: " << lengh << endl;
     cout << "Each line is at maximum: " << lenghLine << " long.\nThe lengh of the lines is limited to limit access to the SSD, to preserve it." << endl;
-    cout << "Many methodes are used and combined, in order to be \"more random\".\nIt's suitable for cryptographic usages!" << endl;
+    cout << "Several methods are used and combined, in order to be \"more random\".\nIt's suitable for cryptographic usages!" << endl;
     ofstream fileApp(filename.c_str()); // Is append better?
     if(fileApp.is_open()) {
         int value = 0;
